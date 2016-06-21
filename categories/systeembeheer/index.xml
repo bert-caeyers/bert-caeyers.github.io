@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systeembeheer on GIP-taak_CaeyersBert</title>
+    <link>http://bert-caeyers.github.io/categories/systeembeheer/</link>
+    <description>Recent content in Systeembeheer on GIP-taak_CaeyersBert</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 May 2016 14:49:19 +0200</lastBuildDate>
+    <atom:link href="http://bert-caeyers.github.io/categories/systeembeheer/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Testomgeving</title>
+      <link>http://bert-caeyers.github.io/post/Testomgeving/</link>
+      <pubDate>Sat, 07 May 2016 14:49:19 +0200</pubDate>
+      
+      <guid>http://bert-caeyers.github.io/post/Testomgeving/</guid>
+      <description>
+
+&lt;h2 id=&#34;test-opstelling-omgeving-ontwerpen-opzetten-en-gebruiken:425323cd982e458a75946b0175d9daee&#34;&gt;Test-opstelling / -omgeving ontwerpen, opzetten en gebruiken&lt;/h2&gt;
+
+&lt;p&gt;Voor deze opgave van de GIP gaan we het hebben over twee verschillende applicaties, Minecraft en Teamspeak. Het zijn twee bekende applicaties waarbij dedicated servers enorm belangrijk zijn, dat is één van de redenen dat we voor deze hebben gekozen. Een andere reden is het feit dat we zelf al bekend/vertrouwd zijn met de applicaties en dus al de nodige ervaring hebben om aan de taak te beginnen.
+Om te beginnen maken we gebruik van Teamspeak, een applicatie waarmee je met elkaar kunt praten, net zoals Skype. Het verschil is dat het wordt gehost door eigen servers, daardoor kan je administrators  en andere rechten kunt toepassen. Ten tweede hebben we Minecraft, een spel waar je jouw eigen wereld kan creëren, proberen te overleven is de boodschap. Dedicated servers worden hierbij minder gebruikt, het is niet verplicht. Je kan, indien je dat wilt, solo/alleen spelen. Teamspeak is groter dan Minecraft, vooral op gebied van dedicated servers. De reden hiervan is simpel, je gebruikt deze applicatie gecombineerd met alle games. Minecraft is één van de games waarbij je het kan gebruiken, maar er zijn nog vele andere.&lt;/p&gt;
+
+&lt;h3 id=&#34;stappen:425323cd982e458a75946b0175d9daee&#34;&gt;Stappen&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;We gaan bij beide eerst de server gewoon opzetten en zien of het effectief draait. Hiervoor is alle hardware nodig dat u in de onderstaande kolom kan zien.&lt;/li&gt;
+&lt;li&gt;Als dit allemaal in orde is gaan we nazien of er andere mensen op kunnen en de tool ook echt werkt. Dit doen we door zowel Jens, Ricardo, Maarten en Bert op de server te laten werken.&lt;/li&gt;
+&lt;li&gt;Nu gaan we testen of het ook meerdere mensen aankan en sporen we dus klasgenoten/ kennissen aan om ook op de server te komen.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Onderdelen&lt;/th&gt;
+&lt;th&gt;Minecraft&lt;/th&gt;
+&lt;th&gt;Teamspeak&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;hardware&lt;/td&gt;
+&lt;td&gt;6gb RAM - Twee netwerkingangen&lt;/td&gt;
+&lt;td&gt;4gb RAM - 3 HDD’s (75gb) in RAID1 - Twee netwerkingangen&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Software&lt;/td&gt;
+&lt;td&gt;Windows Server 2008 R2 - Minecraft server - java - duc NO-IP&lt;/td&gt;
+&lt;td&gt;Linux Debian 8 - Teamspeak 3 server linux - duc NO-IP - overige software voor firewall&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Hoe verbinden?&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;minecraftgip.no-ip.org&#34;&gt;Minecraft&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;teamspeakgip.no-ip.org&#34;&gt;Teamspeak&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;minecraft:425323cd982e458a75946b0175d9daee&#34;&gt;Minecraft&lt;/h2&gt;
+
+&lt;p&gt;Heb jij interesse om een Minecraft dedicated server op te starten? Bekijk hieronder de voor- en nadelen!&lt;/p&gt;
+
+&lt;h3 id=&#34;voordelen:425323cd982e458a75946b0175d9daee&#34;&gt;Voordelen&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jij bent de administrator, jij hebt de leiding. Vind jij het ook zo leuk om te bepalen wat iemand wel of niet kan?&lt;/li&gt;
+&lt;li&gt;Waarnemen wat mensen op jouw server hebben gemaakt, zo merk je hoe cruciaal je bent voor hen.&lt;/li&gt;
+&lt;li&gt;Indien je server populair wordt, kan het zijn dat mensen doneren. Op deze manier kan je alle kosten terugwinnen of misschien zelfs winst maken!&lt;/li&gt;
+&lt;li&gt;Je kan het spel naar eigen behoren aanpassen. Vind jij iets niet leuk? Dan schakel je dit zelf uit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;nadelen:425323cd982e458a75946b0175d9daee&#34;&gt;Nadelen&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Kost geld, zonder donaties maak je verlies.&lt;/li&gt;
+&lt;li&gt;De server kan stress of klachten veroorzaken. Voortdurend hopen dat de server nog online is, want anders krijg je klachten van de spelers.&lt;/li&gt;
+&lt;li&gt;Je kan niet altijd de juiste beslissing nemen voor elke speler. De ene heeft een andere voorkeur dan de andere.&lt;/li&gt;
+&lt;li&gt;In begin gaat het moeizaam, het is makkelijker indien je ervaring hebt.&lt;/li&gt;
+&lt;li&gt;Het vraagt soms veel tijd door problemen en dergelijke.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../Afbeeldingen/Minecraft.png&#34; alt=&#34;afbeelding1&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;teamspeak:425323cd982e458a75946b0175d9daee&#34;&gt;Teamspeak&lt;/h2&gt;
+
+&lt;p&gt;We zijn begonnen aan de taak door de rollen te verdelen. Ricardo wilde de dedicated server maken, Bert en Jens schreven de teksten en Maarten ging ze verbeteren. Op het eerste zicht leek alles te werken, de server startte op en deed zijn ding. Iets later doken er toch een aantal foutjes op, maar die werden al snel opgelost. Vanaf het moment dat de server foutloos draaide, konden wij aan de hand van het IP-adres dat hij ons had gegeven op zijn server gaan. Dit ging met het programma Teamspeak, hiermee kan men communiceren met elkaar zoals Skype maar alleen als je op dezelfde server zit. Na een aantal keer testen leken er geen problemen te zijn en zo konden wij er vanuit gaan dat de Teamspeakserver uitstekend functioneerde.&lt;/p&gt;
+
+&lt;h3 id=&#34;voordelen-1:425323cd982e458a75946b0175d9daee&#34;&gt;Voordelen&lt;/h3&gt;
+
+&lt;p&gt;Het is een private server, dit wil zeggen dat je het IP moet vragen aan de administrator. Je hangt dus niet af van de servers van een groot bedrijf, zoals bijvoorbeeld Skype.  Een ander voordeel is het feit dat de administrator iedereen verschillende rollen kan geven, hiermee bedoel ik dat hij de ene persoon meer rechten kan geven dan de andere. Soms heeft dit een nadeel. Het zou bijvoorbeeld kunnen dat de persoon met het meeste rechten irritant wilt doen, maar dan is het aan de administrator om dat op een goede manier op te lossen. Teamspeak geeft de mogelijkheid om op één server verschillende channels te maken, bijvoorbeeld een channel voor de gamers of een channel voor de mensen die dezelfde serie aan het kijken zijn. Zo hoef je maar één server te draaien om toch verschillende channels te hebben. Het laatste voordeel is dat zowel Teamspeak als de server gratis zijn en je zelf kan bepalen wanneer je de server af- of aanzet.&lt;/p&gt;
+
+&lt;h3 id=&#34;nadelen-1:425323cd982e458a75946b0175d9daee&#34;&gt;Nadelen&lt;/h3&gt;
+
+&lt;p&gt;Als je wilt dat jouw vrienden kunnen blijven communiceren, moet je een computer hebben die altijd opstaat. Op deze computer moet dan de server gedraaid worden. Als je deze afzet of hij valt uit, kan er niemand meer op de server. Ook heb je een maximum aantal mensen die op de server kunnen, als je dit wilt vermeerderen zal je jezelf een zwaardere computer moeten aanschaffen. De computer waar de server op draait, kan je in sommige gevallen niet meer gebruiken. Het komt er op neer dat je dan een extra pc moet aankopen, met andere woorden: weer een kost dat erbij komt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../Afbeeldingen/Teamspeak.png&#34; alt=&#34;afbeelding1&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

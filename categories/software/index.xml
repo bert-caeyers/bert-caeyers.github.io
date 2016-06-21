@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on GIP-taak_CaeyersBert</title>
+    <link>http://bert-caeyers.github.io/categories/software/</link>
+    <description>Recent content in Software on GIP-taak_CaeyersBert</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 May 2016 20:21:33 +0200</lastBuildDate>
+    <atom:link href="http://bert-caeyers.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IT profile</title>
+      <link>http://bert-caeyers.github.io/post/IT-profile/</link>
+      <pubDate>Mon, 09 May 2016 20:21:33 +0200</pubDate>
+      
+      <guid>http://bert-caeyers.github.io/post/IT-profile/</guid>
+      <description>&lt;p&gt;Wil U meer weten over de IT-kennis welke ik de afgelopen 2 jaar heb opgedaan.
+Klik dan &lt;a href=&#34;../../HTML/IT-profile.html&#34; target = &#34;_blank&#34;&gt; hier&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>http://bert-caeyers.github.io/post/Software/</link>
+      <pubDate>Sun, 08 May 2016 12:23:38 +0200</pubDate>
+      
+      <guid>http://bert-caeyers.github.io/post/Software/</guid>
+      <description>
+
+&lt;h2 id=&#34;websiteworkflows:35934d890f2ffbde2750e44515512f51&#34;&gt;WebsiteWorkflows&lt;/h2&gt;
+
+&lt;p&gt;Deze site is speciaal gemaakt voor het plaatsen van al mijn GIP-taken.
+  Hier werd ook opzich een GIP-taak van gemaakt.
+  Ik vind het zelf een fantastische ervaring om zelf een site te kunnen maken.
+  Dit doen we wel met behulp van HUGO.
+  HUGO is een tool die je helpt een site te maken door gebruik van verschillende partials.&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo-eigen-mening:35934d890f2ffbde2750e44515512f51&#34;&gt;HUGO eigen mening&lt;/h2&gt;
+
+&lt;p&gt;Ik vind HUGO eigenlijk een zeer goede tool.
+  In het begin is het wel even moeilijk maar eens je het doorhebt gaat het zeer goed.
+  Wat ik minder vind is dat niet alle themas compatibel zijn om posts aan toe te voegen zoals de vorige versie van mijn site.
+  Gelukkig lukt het nu bij mijn huidige site wel.
+  Wat ik ook zeer leuk vind is dat je makkelijk verschillende themas samen kan gebruiken.
+  Ik zou het zeker aanraden aan andere mensen maar zou de klemtoon leggen op extra uitleg bij het hoofdstuk partials en benadrukken om zeker alles op de site zeer goed na te lezen.
+  Voor de rest is HUGO redelijk makkelijk te gebruiken.
+  Soms ondervin je mogelijk wat weerstand maar met een portie doorzettingsvermogen lukt het zeker.
+  Als ik zou moeten kiezen tussen Wordpress of HUGO zou mijn keuze ongetwijfeld naar deze laatste uitgaan, omdat je veel meer opties hebt en je de site naar je eigen stijl kan aanpassen.&lt;/p&gt;
+
+&lt;h2 id=&#34;doelen-met-de-site:35934d890f2ffbde2750e44515512f51&#34;&gt;Doelen met de site&lt;/h2&gt;
+
+&lt;p&gt;Ik ben zeker nog van plan een ander thema toe te voegen.
+Dan ga ik gebruik maken van posts in plaats van alles in de HTML code te verranderen.
+Voor de rest is alles naar wens verlopen.
+Maar ik ben nog wel van plan om zeer veel aan de site te verranderen.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://bert-caeyers.github.io/post/Javascript/</link>
+      <pubDate>Sat, 07 May 2016 17:42:42 +0200</pubDate>
+      
+      <guid>http://bert-caeyers.github.io/post/Javascript/</guid>
+      <description>&lt;p&gt;Wil U de webapplicatie aan de hand van Javascript, HTML en CSS aangemaakt zien?
+Klik dan &lt;a href=&#34;../../HTML/Hoofdpagina.html&#34;&gt;hier&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>http://bert-caeyers.github.io/post/Database/</link>
+      <pubDate>Sat, 07 May 2016 14:47:34 +0200</pubDate>
+      
+      <guid>http://bert-caeyers.github.io/post/Database/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;../../Afbeeldingen/diagram.png&#34; alt=&#34;foto1&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;inhoud:7f1541b59939d885104af950cdbf1037&#34;&gt;Inhoud:&lt;/h2&gt;
+
+&lt;p&gt;Mijn plan was om een database te maken waarop leerlingen met hun leerkrachten kunnen communiceren en hun lessenroosters kunnen nazien. Dit idee is gebaseerd op de al bestaande website smartschool.
+Elke leerling heeft een eigen unieke account waarop zijn lessenrooster staat. Op deze lessenrooster staat niet alleen het vak maar ook de leerkracht die het geeft. De leerlingen en leerkrachten kunnen ook met elkaar communiceren dit doen ze aan de hand van een bericht te sturen met een onderwerp meegegeven.&lt;/p&gt;
+
+&lt;h2 id=&#34;sql-code:7f1541b59939d885104af950cdbf1037&#34;&gt;SQL Code:&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;h3 id=&#34;database-en-tabellen-maken:7f1541b59939d885104af950cdbf1037&#34;&gt;Database en tabellen maken&lt;/h3&gt;
+
+&lt;p&gt;create schema gip_taak_08;&lt;br /&gt;
+use gip_taak_08;&lt;/p&gt;
+
+&lt;p&gt;create table Leerling(&lt;br /&gt;
+    id int not null auto_increment primary key,&lt;br /&gt;
+    Naam text not null,&lt;br /&gt;
+    Woonplaats text not null,&lt;br /&gt;
+    klas text not null,&lt;br /&gt;
+    graad text not null&lt;br /&gt;
+);&lt;/p&gt;
+
+&lt;p&gt;create table Leerkracht(&lt;br /&gt;
+    id int not null auto_increment primary key,&lt;br /&gt;
+    Naam text not null,&lt;br /&gt;
+    Woonplaats text not null,&lt;br /&gt;
+    vak text not null,&lt;br /&gt;
+    graad text not null&lt;br /&gt;
+);&lt;/p&gt;
+
+&lt;p&gt;create table berichten(&lt;br /&gt;
+    id int not null auto_increment primary key,&lt;br /&gt;
+    Leerkracht_id int,&lt;br /&gt;
+    Leerling_id int,&lt;br /&gt;
+    Onderwerp text not null&lt;br /&gt;
+    );&lt;/p&gt;
+
+&lt;p&gt;create table vak(&lt;br /&gt;
+    id int not null auto_increment primary key,&lt;br /&gt;
+    Leerling_id int,&lt;br /&gt;
+    Leerkracht_id int&lt;br /&gt;
+      );&lt;/p&gt;
+
+&lt;h3 id=&#34;gegevens-invoeren:7f1541b59939d885104af950cdbf1037&#34;&gt;Gegevens invoeren&lt;/h3&gt;
+
+&lt;p&gt;insert into Leerling(id, Naam, Woonplaats, klas, graad)&lt;br /&gt;
+values&lt;br /&gt;
+(1, &amp;ldquo;Maarten&amp;rdquo;, &amp;ldquo;Sint-Antonius&amp;rdquo;, &amp;ldquo;6IB&amp;rdquo;, &amp;ldquo;3de&amp;rdquo;),&lt;br /&gt;
+(2, &amp;ldquo;Wout&amp;rdquo;, &amp;ldquo;Malle&amp;rdquo;,&amp;ldquo;6IB&amp;rdquo;, &amp;ldquo;3de&amp;rdquo;),&lt;br /&gt;
+(3, &amp;ldquo;Ricardo&amp;rdquo;, &amp;ldquo;Brecht&amp;rdquo;,&amp;ldquo;6IB&amp;rdquo;, &amp;ldquo;3de&amp;rdquo;);&lt;/p&gt;
+
+&lt;p&gt;insert into Leerkracht(id, Naam, Woonplaats, vak, graad)&lt;br /&gt;
+values&lt;br /&gt;
+(1, &amp;ldquo;Degrauwe&amp;rdquo;, &amp;ldquo;Wijnegem&amp;rdquo;, &amp;ldquo;Geschiedenis&amp;rdquo;, &amp;ldquo;3de&amp;rdquo;),&lt;br /&gt;
+(2, &amp;ldquo;Vanbergen&amp;rdquo;, &amp;ldquo;Geel&amp;rdquo;, &amp;ldquo;Nederlands&amp;rdquo;, &amp;ldquo;3de&amp;rdquo;);&lt;/p&gt;
+
+&lt;p&gt;insert into vak(id, Leerling_id, Leerkracht_id)&lt;br /&gt;
+values&lt;br /&gt;
+(1,1,1),&lt;br /&gt;
+(2,3,1),&lt;br /&gt;
+(3,2,2),&lt;br /&gt;
+(4,1,2),&lt;br /&gt;
+(5,3,2),&lt;br /&gt;
+(6,2,1);&lt;/p&gt;
+
+&lt;p&gt;insert into berichten(id, Leerling_id, Leerkracht_id, Onderwerp)&lt;br /&gt;
+values&lt;br /&gt;
+(1,2,2, &amp;ldquo;Test&amp;rdquo;),&lt;br /&gt;
+(2,1,1,&amp;ldquo;Werkstudie&amp;rdquo;);&lt;/p&gt;
+
+&lt;h3 id=&#34;gegevens-opvragen:7f1541b59939d885104af950cdbf1037&#34;&gt;Gegevens opvragen&lt;/h3&gt;
+
+&lt;h4 id=&#34;toon-alle-leerlingen-met-hun-vakken-en-hun-leerkrachten:7f1541b59939d885104af950cdbf1037&#34;&gt;Toon alle Leerlingen met hun vakken en hun leerkrachten&lt;/h4&gt;
+
+&lt;p&gt;SELECT *&lt;br /&gt;
+FROM Leerling&lt;br /&gt;
+JOIN vak ON Leerling.id = vak.Leerling_id&lt;br /&gt;
+JOIN Leerkracht ON Leerkracht_id = Leerkracht.id;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../Afbeeldingen/uitkomst2.png&#34; alt=&#34;uitkomst1&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h4 id=&#34;toon-alle-leerlingen-met-alle-berichten-naar-de-leerkracht-geschiedenis:7f1541b59939d885104af950cdbf1037&#34;&gt;Toon alle Leerlingen met alle berichten naar de leerkracht geschiedenis&lt;/h4&gt;
+
+&lt;p&gt;SELECT *&lt;br /&gt;
+FROM Leerling&lt;br /&gt;
+JOIN berichten ON Leerling.id = berichten.Leerling_id&lt;br /&gt;
+JOIN Leerkracht ON Leerkracht_id = Leerkracht.id&lt;br /&gt;
+WHERE Leerkracht.vak = &amp;ldquo;Geschiedenis&amp;rdquo;;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../Afbeeldingen/uitkomst1.png&#34; alt=&#34;uikomst2&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

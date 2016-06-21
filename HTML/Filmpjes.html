@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Filmpjes </title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="http://img10.deviantart.net/8a93/i/2011/024/0/4/pokemon_bw_wallpaper_by_tyrannotaur-d37ynfu.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<style>
+body{
+	background-color: #CCCCCC;
+	overflow:hidden;
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/57/34/8e/57348e652261f632d0636b1421d12146.jpg);
+  background-attachment: fixed;
+
+}
+
+.leftbar {position: fixed; width: 200px; height: 100%; overflow: auto; float: left}
+.rightbar {position: fixed;left:90%; width:200px;height: 100%; overflow: auto; float:right }
+.red
+{
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+
+.green
+{
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
+}
+
+.yellow
+{
+	background-color: #F2CF66;
+	border-bottom: 5px solid #D1B358;
+	text-shadow: 0px -2px #D1B358;
+}
+.content{
+	height: 850px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom:0px;
+	margin-top:0px;
+	position: absolute;
+	width: 77%;
+}
+.content2{
+	background-color:gray;
+	height: 850px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom:0px;
+	margin-top:0px;
+	position: absolute;
+	width: 77%;
+}
+.content3{
+text-align: center;
+
+}
+
+h1 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 50px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s ;
+}
+
+.action-button
+{
+	position: absolute;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+#ButtonGreen{
+	position: absolute;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+			height: 100%;
+      margin:auto;
+
+.item
+{
+	width: 600px;
+	height: 10px;
+
+
+}
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+</style>
+    </head>
+
+
+<body style="overflow:auto;">
+
+
+
+  <div class="dropdown">
+     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Filmpjes
+     <span class="caret"></span></button>
+     <ul class="dropdown-menu">
+       <li id="filmpje1"><a href="#">Filmpje 1</a></li>
+       <li id="filmpje2"><a href="#">Filmpje 2</a></li>
+       <li id="filmpje3"><a href="#">Filmpje 3</a></li>
+       <li id="filmpje4"><a href="#">Filmpje 4</a></li>
+       <li id="filmpje5"><a href="#">Filmpje 5</a></li>
+       <li id="filmpje6"><a href="#">Filmpje 6</a></li>
+     </ul>
+   </div>
+
+
+
+<h1>Filmpjes </h1>
+
+<div class= "rightbar">
+</br>
+</br>
+</br>
+</br></br></br></br></br>
+</br></br></br></br></br>
+
+<a href="http://bert-caeyers.github.io/" class="action-button shadow animate green">Home</a>
+</br></br>
+</br></br>
+</br>
+</br></br></br></br></br>
+
+<a href="http://users.skynet.be/bk327677/Oplossingen.pdf" class="action-button shadow animate yellow">Info</a>
+</div>
+
+
+<div class= "leftbar">
+</br>
+</br>
+</br>
+</br></br></br></br></br>
+</br></br></br></br></br>
+
+<a href="Hoofdpagina.html" class="action-button shadow animate blue">Home</a>
+
+</br></br>
+</br></br>
+</br>
+</br></br></br></br></br>
+
+<a href="Foto's.html" class="action-button shadow animate red">Foto's</a>
+
+</div>
+
+
+
+			<br />
+    </div>
+<script>
+var tag = document.createElement('script');
+
+   tag.src = "https://www.youtube.com/iframe_api";
+   var firstScriptTag = document.getElementsByTagName('script')[0];
+   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+   var player;
+
+
+ function onYouTubeIframeAPIReady() {
+       player = new YT.Player('player', {
+         height: '750',
+         width: '1200',
+         videoId: 'BnNFMv561jY',
+
+   });
+
+ }
+
+
+     function onPlayerReady(event) {
+       event.target.playVideo();
+     }
+
+
+
+ function filmpje1(){
+   player.loadVideoById({'videoId': 'BnNFMv561jY',
+               'startSeconds' : 0,
+               'suggestedQuality': 'large'});
+    }
+ function filmpje2(){
+   player.loadVideoById({'videoId': 'uQp3XM3zugI',
+               'startSeconds' : 0,
+               'suggestedQuality': 'large'});
+ }
+   function filmpje3(){
+   player.loadVideoById({'videoId': '79lBfXf1L9A',
+               'startSeconds' : 0,
+               'suggestedQuality': 'large'});
+ }
+ function filmpje4(){
+ player.loadVideoById({'videoId': 'LYvrBuiO17M',
+             'startSeconds' : 0,
+             'suggestedQuality': 'large'});
+}
+function filmpje5(){
+player.loadVideoById({'videoId': 'ID73rK0v694',
+            'startSeconds' : 0,
+            'suggestedQuality': 'large'});
+}
+function filmpje6(){
+player.loadVideoById({'videoId': 'B6Eg3JBTgtQ',
+            'startSeconds' : 0,
+            'suggestedQuality': 'large'});
+}
+
+document.getElementById("filmpje1").addEventListener("click", filmpje1);
+document.getElementById("filmpje2").addEventListener("click", filmpje2);
+document.getElementById("filmpje3").addEventListener("click", filmpje3);
+document.getElementById("filmpje4").addEventListener("click", filmpje4);
+document.getElementById("filmpje5").addEventListener("click", filmpje5);
+document.getElementById("filmpje6").addEventListener("click", filmpje6);
+
+</script>
+    <div class="content3">
+        <div id="player"></div>
+    </div>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,712 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Testomgeving</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.15" />
+        
+
+
+        
+        
+            
+                <meta name="description" content="HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Testomgeving"/>
+<meta name="twitter:description" content="Test-opstelling / -omgeving ontwerpen, opzetten en gebruiken Voor deze opgave van de GIP gaan we het hebben over twee verschillende applicaties, Minecraft en Teamspeak. Het zijn twee bekende applicaties waarbij dedicated servers enorm belangrijk zijn, dat is één van de redenen dat we voor deze hebben gekozen. Een andere reden is het feit dat we zelf al bekend/vertrouwd zijn met de applicaties en dus al de nodige ervaring hebben om aan de taak te beginnen."/>
+
+
+
+        <meta property="og:title" content="Testomgeving" />
+<meta property="og:description" content="Test-opstelling / -omgeving ontwerpen, opzetten en gebruiken Voor deze opgave van de GIP gaan we het hebben over twee verschillende applicaties, Minecraft en Teamspeak. Het zijn twee bekende applicaties waarbij dedicated servers enorm belangrijk zijn, dat is één van de redenen dat we voor deze hebben gekozen. Een andere reden is het feit dat we zelf al bekend/vertrouwd zijn met de applicaties en dus al de nodige ervaring hebben om aan de taak te beginnen." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://bert-caeyers.github.io/post/Testomgeving/" />
+
+
+<meta property="og:updated_time" content="2016-05-07T14:49:19&#43;02:00"/>
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Testomgeving">
+<meta itemprop="description" content="Test-opstelling / -omgeving ontwerpen, opzetten en gebruiken Voor deze opgave van de GIP gaan we het hebben over twee verschillende applicaties, Minecraft en Teamspeak. Het zijn twee bekende applicaties waarbij dedicated servers enorm belangrijk zijn, dat is één van de redenen dat we voor deze hebben gekozen. Een andere reden is het feit dat we zelf al bekend/vertrouwd zijn met de applicaties en dus al de nodige ervaring hebben om aan de taak te beginnen.">
+
+
+<meta itemprop="dateModified" content="2016-05-07T14:49:19&#43;02:00" />
+<meta itemprop="wordCount" content="909">
+
+
+
+<meta itemprop="keywords" content="engels,frans,it-tapa,software,stage,systeembeheer,development,golang,post," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="https://gitlab.com/bert-caeyers/HUGO-site" target = "_blank">Gitlab</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/post/">
+                        Gip-taken
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories/">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/post/introductie/">
+                        Introductie
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+
+
+    
+
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Gip-Taken</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/introductie/"><p>Introductie</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/IT-profile/"><p>IT profile</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/Dagverslagen/"><p>Dagverslagen</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/Software/"><p>Software</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/Javascript/"><p>Javascript</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/Reportage/"><p>Reportage-photos</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/English-Profile/"><p>IT-autobiography</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/Review/"><p>Review</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/Case/"><p>Case study</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/Testomgeving/"><p>Testomgeving</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/FAQ/"><p>FAQ</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/It-tapa/"><p>It-tapa Middagsessie</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/Database/"><p>Database</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/Huisstijl/"><p>Huisstijl</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/cursus/"><p>IT-tapa cursus</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://bert-caeyers.github.io/post/filmpjes/"><p>IT-tapa filmpjes</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fbert-caeyers.github.io%2fpost%2fTestomgeving%2f&text=Testomgeving&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fbert-caeyers.github.io%2fpost%2fTestomgeving%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fbert-caeyers.github.io%2fpost%2fTestomgeving%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fbert-caeyers.github.io%2fpost%2fTestomgeving%2f&title=Testomgeving" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fbert-caeyers.github.io%2fpost%2fTestomgeving%2f&title=Testomgeving" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fbert-caeyers.github.io%2fpost%2fTestomgeving%2f&title=Testomgeving" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2fbert-caeyers.github.io%2fpost%2fTestomgeving%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://bert-caeyers.github.io/post/Testomgeving/">Testomgeving</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2016-05-07'>
+            May 7, 2016</time>
+        <span class="author"></span>
+        
+        
+    </div>
+</header>
+
+
+
+    </section>
+    
+
+    <div id="content">
+        
+
+<h2 id="test-opstelling-omgeving-ontwerpen-opzetten-en-gebruiken:425323cd982e458a75946b0175d9daee">Test-opstelling / -omgeving ontwerpen, opzetten en gebruiken</h2>
+
+<p>Voor deze opgave van de GIP gaan we het hebben over twee verschillende applicaties, Minecraft en Teamspeak. Het zijn twee bekende applicaties waarbij dedicated servers enorm belangrijk zijn, dat is één van de redenen dat we voor deze hebben gekozen. Een andere reden is het feit dat we zelf al bekend/vertrouwd zijn met de applicaties en dus al de nodige ervaring hebben om aan de taak te beginnen.
+Om te beginnen maken we gebruik van Teamspeak, een applicatie waarmee je met elkaar kunt praten, net zoals Skype. Het verschil is dat het wordt gehost door eigen servers, daardoor kan je administrators  en andere rechten kunt toepassen. Ten tweede hebben we Minecraft, een spel waar je jouw eigen wereld kan creëren, proberen te overleven is de boodschap. Dedicated servers worden hierbij minder gebruikt, het is niet verplicht. Je kan, indien je dat wilt, solo/alleen spelen. Teamspeak is groter dan Minecraft, vooral op gebied van dedicated servers. De reden hiervan is simpel, je gebruikt deze applicatie gecombineerd met alle games. Minecraft is één van de games waarbij je het kan gebruiken, maar er zijn nog vele andere.</p>
+
+<h3 id="stappen:425323cd982e458a75946b0175d9daee">Stappen</h3>
+
+<ol>
+<li>We gaan bij beide eerst de server gewoon opzetten en zien of het effectief draait. Hiervoor is alle hardware nodig dat u in de onderstaande kolom kan zien.</li>
+<li>Als dit allemaal in orde is gaan we nazien of er andere mensen op kunnen en de tool ook echt werkt. Dit doen we door zowel Jens, Ricardo, Maarten en Bert op de server te laten werken.</li>
+<li>Nu gaan we testen of het ook meerdere mensen aankan en sporen we dus klasgenoten/ kennissen aan om ook op de server te komen.</li>
+</ol>
+
+<table>
+<thead>
+<tr>
+<th>Onderdelen</th>
+<th>Minecraft</th>
+<th>Teamspeak</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>hardware</td>
+<td>6gb RAM - Twee netwerkingangen</td>
+<td>4gb RAM - 3 HDD’s (75gb) in RAID1 - Twee netwerkingangen</td>
+</tr>
+
+<tr>
+<td>Software</td>
+<td>Windows Server 2008 R2 - Minecraft server - java - duc NO-IP</td>
+<td>Linux Debian 8 - Teamspeak 3 server linux - duc NO-IP - overige software voor firewall</td>
+</tr>
+
+<tr>
+<td>Hoe verbinden?</td>
+<td><a href="minecraftgip.no-ip.org">Minecraft</a></td>
+<td><a href="teamspeakgip.no-ip.org">Teamspeak</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="minecraft:425323cd982e458a75946b0175d9daee">Minecraft</h2>
+
+<p>Heb jij interesse om een Minecraft dedicated server op te starten? Bekijk hieronder de voor- en nadelen!</p>
+
+<h3 id="voordelen:425323cd982e458a75946b0175d9daee">Voordelen</h3>
+
+<ul>
+<li>Jij bent de administrator, jij hebt de leiding. Vind jij het ook zo leuk om te bepalen wat iemand wel of niet kan?</li>
+<li>Waarnemen wat mensen op jouw server hebben gemaakt, zo merk je hoe cruciaal je bent voor hen.</li>
+<li>Indien je server populair wordt, kan het zijn dat mensen doneren. Op deze manier kan je alle kosten terugwinnen of misschien zelfs winst maken!</li>
+<li>Je kan het spel naar eigen behoren aanpassen. Vind jij iets niet leuk? Dan schakel je dit zelf uit.</li>
+</ul>
+
+<h3 id="nadelen:425323cd982e458a75946b0175d9daee">Nadelen</h3>
+
+<ul>
+<li>Kost geld, zonder donaties maak je verlies.</li>
+<li>De server kan stress of klachten veroorzaken. Voortdurend hopen dat de server nog online is, want anders krijg je klachten van de spelers.</li>
+<li>Je kan niet altijd de juiste beslissing nemen voor elke speler. De ene heeft een andere voorkeur dan de andere.</li>
+<li>In begin gaat het moeizaam, het is makkelijker indien je ervaring hebt.</li>
+<li>Het vraagt soms veel tijd door problemen en dergelijke.</li>
+</ul>
+
+<p><img src="../../Afbeeldingen/Minecraft.png" alt="afbeelding1" /></p>
+
+<h2 id="teamspeak:425323cd982e458a75946b0175d9daee">Teamspeak</h2>
+
+<p>We zijn begonnen aan de taak door de rollen te verdelen. Ricardo wilde de dedicated server maken, Bert en Jens schreven de teksten en Maarten ging ze verbeteren. Op het eerste zicht leek alles te werken, de server startte op en deed zijn ding. Iets later doken er toch een aantal foutjes op, maar die werden al snel opgelost. Vanaf het moment dat de server foutloos draaide, konden wij aan de hand van het IP-adres dat hij ons had gegeven op zijn server gaan. Dit ging met het programma Teamspeak, hiermee kan men communiceren met elkaar zoals Skype maar alleen als je op dezelfde server zit. Na een aantal keer testen leken er geen problemen te zijn en zo konden wij er vanuit gaan dat de Teamspeakserver uitstekend functioneerde.</p>
+
+<h3 id="voordelen-1:425323cd982e458a75946b0175d9daee">Voordelen</h3>
+
+<p>Het is een private server, dit wil zeggen dat je het IP moet vragen aan de administrator. Je hangt dus niet af van de servers van een groot bedrijf, zoals bijvoorbeeld Skype.  Een ander voordeel is het feit dat de administrator iedereen verschillende rollen kan geven, hiermee bedoel ik dat hij de ene persoon meer rechten kan geven dan de andere. Soms heeft dit een nadeel. Het zou bijvoorbeeld kunnen dat de persoon met het meeste rechten irritant wilt doen, maar dan is het aan de administrator om dat op een goede manier op te lossen. Teamspeak geeft de mogelijkheid om op één server verschillende channels te maken, bijvoorbeeld een channel voor de gamers of een channel voor de mensen die dezelfde serie aan het kijken zijn. Zo hoef je maar één server te draaien om toch verschillende channels te hebben. Het laatste voordeel is dat zowel Teamspeak als de server gratis zijn en je zelf kan bepalen wanneer je de server af- of aanzet.</p>
+
+<h3 id="nadelen-1:425323cd982e458a75946b0175d9daee">Nadelen</h3>
+
+<p>Als je wilt dat jouw vrienden kunnen blijven communiceren, moet je een computer hebben die altijd opstaat. Op deze computer moet dan de server gedraaid worden. Als je deze afzet of hij valt uit, kan er niemand meer op de server. Ook heb je een maximum aantal mensen die op de server kunnen, als je dit wilt vermeerderen zal je jezelf een zwaardere computer moeten aanschaffen. De computer waar de server op draait, kan je in sommige gevallen niet meer gebruiken. Het komt er op neer dat je dan een extra pc moet aankopen, met andere woorden: weer een kost dat erbij komt.</p>
+
+<p><img src="../../Afbeeldingen/Teamspeak.png" alt="afbeelding1" /></p>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/systeembeheer'>Systeembeheer</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://bert-caeyers.github.io/post/FAQ/"
+                class="button big previous">FAQ</a></li>
+    
+
+    
+        <li><a href="http://bert-caeyers.github.io/post/Case/"
+                class="button big next">Case study</a></li>
+    
+</ul>
+
+
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/12802918_970937662981773_3768404165064627965_n.jpg?oh=d67fb58bd8a01595c4b9aa0ff77d5654&amp;oe=57E0F2C6" alt="Hugo Future Imperfect" /></a>
+                
+            
+            
+                <header>
+                    <h2>Mijn Blog</h2>
+                    <p>Welkom bij mijn GIP-site. Veel lees- en kijkplezier!</p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/bert-caeyers" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//facebook.com/immaculatamalle/?ref=ts&amp;fref=ts" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+<li><a href="mailto:bert.caeyers@immalle.be" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+
+
+        
+        
+        
+        
+            <section id="categories">
+                <ul class="posts">
+                    <header>
+                        <h3><a href="/categories/">Vakken</a></h3>
+                    </header>
+
+                    
+                        
+                    
+
+                    
+                        <li>
+                            <article>
+                                <header>
+                                    <a href="/categories/engels/">engels</a>
+                                    <span style="float:right;">2</span>
+                                </header>
+                            </article>
+                        </li>
+                    
+                        <li>
+                            <article>
+                                <header>
+                                    <a href="/categories/frans/">frans</a>
+                                    <span style="float:right;">2</span>
+                                </header>
+                            </article>
+                        </li>
+                    
+                        <li>
+                            <article>
+                                <header>
+                                    <a href="/categories/it-tapa/">it-tapa</a>
+                                    <span style="float:right;">3</span>
+                                </header>
+                            </article>
+                        </li>
+                    
+                        <li>
+                            <article>
+                                <header>
+                                    <a href="/categories/software/">software</a>
+                                    <span style="float:right;">4</span>
+                                </header>
+                            </article>
+                        </li>
+                    
+                        <li>
+                            <article>
+                                <header>
+                                    <a href="/categories/stage/">stage</a>
+                                    <span style="float:right;">5</span>
+                                </header>
+                            </article>
+                        </li>
+                    
+                        <li>
+                            <article>
+                                <header>
+                                    <a href="/categories/systeembeheer/">systeembeheer</a>
+                                    <span style="float:right;">1</span>
+                                </header>
+                            </article>
+                        </li>
+                    
+                </ul>
+            </section>
+        
+
+
+
+
+
+
+  
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/bert-caeyers" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//facebook.com/immaculatamalle/?ref=ts&amp;fref=ts" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+<li><a href="mailto:bert.caeyers@immalle.be" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; GIP-taak_CaeyersBert. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+
